@@ -27,10 +27,14 @@
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="10 10 10"
+                    scale="5 5 5"
                     position="0 20 0" 
                     gps-entity-place="latitude: 5.3053; longitude: -3.992283;"
                 ></a-entity>
+
+                <a-entity look-at="[gps-camera]" position="0 1 -1" 
+                    text="value: Votre texte ici; align: center; width: 6; color: white;"
+                    ></a-entity>
 
             <a-camera gps-camera rotation-reader></a-camera>
         </a-scene>
